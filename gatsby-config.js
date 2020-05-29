@@ -5,6 +5,7 @@ module.exports = {
     default starter. This barebones starter ships with the main Gatsby 
     configuration files you might need.`,
     author: `@gatsbyjs`,
+    siteUrl: "https://hinder-poison.000webhostapp.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,7 +37,7 @@ module.exports = {
         baseUrl: "hinder-poison.000webhostapp.com",
         protocol: "https",
         hostingWPCOM: false,
-        // We will be using some advanced custom fields
+        // We will be using some advanced custom fields 
         useACF: true,
         acfOptionPageIds: [],
         verboseOutput: false,
