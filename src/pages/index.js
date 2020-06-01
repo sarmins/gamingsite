@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import { Container } from 'react-bootstrap';
 
 const IndexPage = ({ data }) => (
-  <Container fluid style={{ paddingLeft: 0, paddingRight: 0 }}>
+  <Container fluid style={{ paddingLeft: 0, paddingRight: 0}}>
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <ul style={{ listStyle: "none" }}>
