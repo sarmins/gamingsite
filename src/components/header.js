@@ -55,9 +55,11 @@ const Header = () => (
  					 </Form.Group>
  				</div>
   				<div class="pb-2">
+  				<div class="row justify-content-center">
   					<Button variant="outline-warning" type="submit">
    						 Pieslēgties
  					 </Button>
+ 					 </div>
  				</div>
 			</Form>
 		</Container>
